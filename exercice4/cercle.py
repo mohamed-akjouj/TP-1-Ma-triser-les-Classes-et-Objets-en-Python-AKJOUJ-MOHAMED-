@@ -26,7 +26,7 @@ class Cercle:
     def __str__(self):
         return f"Cercle(rayon={self.rayon})"
 
-c = Cercle(5.0)
+c=Cercle(5.0)
 print(c.aire()) 
 
 try:
