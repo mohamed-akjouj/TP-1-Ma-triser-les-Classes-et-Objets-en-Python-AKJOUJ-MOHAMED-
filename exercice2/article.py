@@ -12,7 +12,7 @@ class Article:
     def ajouter_stock(self, quantite: int):
         """Ajoute une quantité au stock actuel."""
         if quantite < 0:
-            raise ValueError("La quantité ajoutée ne peut pas être négative.")
+            raise ValueError("La quantité ajoutée ne peut pas être negative.")
         self.stock += quantite
 
     def __str__(self):
