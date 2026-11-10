@@ -6,7 +6,7 @@ class CompteurPage:
     def __init__(self, nom_page):
         # Attributs d'instance
         self.nom_page = nom_page
-        self.visites = 0
+        self.visites =0
         CompteurPage.total_visites += 1
 
     def ajouter_visite(self):
